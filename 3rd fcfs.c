@@ -39,4 +39,18 @@
     printf("nAverage Turnaround Time:%d",avtat);
  
     return 0;
-}
+} 
+
+output
+Enter total number of processes(maximum 20):7
+nEnter Process Burst TimenP[1]:2
+P[2]:3
+P[3]:4
+P[4]:5
+P[5]:4
+P[6]:3
+P[7]:6
+nProcessttBurst TimetWaiting TimetTurnaround TimenP[1]tt2tt0tt2nP[2]tt3tt2tt5nP[3]tt4tt5tt9nP[4]tt5tt9tt14nP[5]tt4tt14tt18nP[6]tt3tt18tt21nP[7]tt6tt21tt27nnAverage Waiting Time:9nAverage Turnaround Time:13
+--------------------------------
+Process exited after 24.32 seconds with return value 0
+Press any key to continue . . .
