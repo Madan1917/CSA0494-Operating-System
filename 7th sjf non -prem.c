@@ -29,4 +29,20 @@ int main() {
   printf("\n\n average turnaround time = %f", sumt * 1.0 / n);
   return 0;
 }
+output
+enter the no of processes : 3
+the arrival time for process P1 : 4
+the burst time for process P1 : 5
+the arrival time for process P2 : 6
+the burst time for process P2 : 7
+the arrival time for process P3 : 8
+the burst time for process P3 : 9
+P[10]   |       -1995875761     |       -1995885760
 
+
+ average waiting time = -665295253.333333
+
+ average turnaround time = -665291920.333333
+--------------------------------
+Process exited after 12.93 seconds with return value 0
+Press any key to continue . . .
