@@ -67,3 +67,13 @@ int main()
       printf("nAvg Turnaround Time:t%fn", average_turnaround_time);
       return 0;
 }
+output
+nEnter Total Number of Processes:t3
+nEnter Details of Process[1]nArrival Time:t4
+Burst Time:t5
+nEnter Details of Process[2]nArrival Time:t6
+Burst Time:t7
+nEnter Details of Process[3]nArrival Time:t8
+Burst Time:t3
+nEnter Time Quantum:t4
+nProcess IDttBurst Timet Turnaround Timet Waiting TimennProcess[1]tt5tt 1ttt -4
