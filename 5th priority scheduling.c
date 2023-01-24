@@ -70,3 +70,41 @@ int main()
  
 return 0;
 }
+output
+Enter Total Number of Process:5
+
+Enter Burst Time and Priority
+
+P[1]
+Burst Time:4
+Priority:3
+
+P[2]
+Burst Time:2
+Priority:6
+
+P[3]
+Burst Time:7
+Priority:6
+
+P[4]
+Burst Time:3
+Priority:4
+
+P[5]
+Burst Time:5
+Priority:6
+
+Process     Burst Time          Waiting Time    Turnaround Time
+P[1]              4                 0                   4
+P[4]              3                 4                   7
+P[3]              7                 7                   14
+P[2]              2                 14                  16
+P[5]              5                 16                  21
+
+Average Waiting Time=8
+Average Turnaround Time=12
+
+--------------------------------
+Process exited after 22.1 seconds with return value 0
+Press any key to continue . . .
