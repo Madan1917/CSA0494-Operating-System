@@ -60,3 +60,16 @@
     printf("nnAverage Waiting Time=%f",avg_wt);
     printf("nAverage Turnaround Time=%fn",avg_tat);
 }
+output
+Enter number of process:7
+nEnter Burst Time:np1:3
+p2:4
+p3:5
+p4:4
+p5:6
+p6:2
+p7:7
+nProcesst    Burst Time    tWaiting TimetTurnaround Timenp6tt  2tt    0ttt2np1tt  3tt    2ttt5np4tt  4tt    5ttt9np2tt  4tt    9ttt13np3tt  5tt    13ttt18np5tt  6tt    18ttt24np7tt  7tt    24ttt31nnAverage Waiting Time=10.142858nAverage Turnaround Time=14.571428n
+--------------------------------
+Process exited after 19.38 seconds with return value 0
+Press any key to continue . . .
