@@ -71,3 +71,21 @@ int main()
     
     return 0;
 }
+output
+Enter the number of the process
+3
+Enter the arrival time , burst time and priority of the process
+AT BT PT
+2 3 4
+5 6 7
+8 9 0
+ID WT TAT
+1 0     3
+2 9     15
+3 0     9
+Avg waiting time of the process  is 3.000000
+Avg turn around time of the process is 9.000000
+
+--------------------------------
+Process exited after 29.67 seconds with return value 0
+Press any key to continue . . .
