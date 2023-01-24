@@ -12,4 +12,12 @@ int main()
     printf("Parent Process ID: %d\n", p_pid);
 
     return 0;
-}
+} 
+
+output
+Process ID: 15560
+Parent Process ID: 15560
+
+--------------------------------
+Process exited after 8.998 seconds with return value 0
+Press any key to continue . . .
